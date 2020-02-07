@@ -1,0 +1,105 @@
+body {
+	background-color: Black;
+}
+
+.top-header {
+	font-family: "Special Elite";
+	font-size: 60px;
+	color: #fffff4;
+	text-align: center;
+}
+
+.team_names {
+	font-family: "Special Elite";
+	font-size: 30px;
+	color: #fffff4;
+	text-align: center;
+}
+
+.team_select {
+	font-family: "Special Elite";
+	font-size: 15px;
+	color: #fffff4;
+	text-align: center;
+}
+
+.teams {
+	font-family: Special Elite;
+	font-size: 15px;
+	color: #fffff4;
+	text-align: center;
+}
+
+img {
+	max-height: 100px;
+}
+
+input {
+	min-width: 20px;
+	width: 5%;
+}
+
+.qty {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0 2px
+    ;min-width: 25px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font: 20px/1 Arial;
+    text-align: center;
+    border-radius: 50%;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font: 20px/1 Arial;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+.mt-5, .my-5 {
+	margin-top: .25em!important;
+	margin-bottom: .15em!important;
+}
+
+div {
+    text-align: center;
+}
+.minus:hover{
+    background-color: #717fe0 !important;
+}
+.plus:hover{
+    background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
+}
+         
